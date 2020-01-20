@@ -1,0 +1,35 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+.jumbotron{
+    background-image: url('../images/gitsAcademy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 380px;
+    height: 70vh;
+}
+/* Add styles to the form container */
+.form-container {
+    position: absolute;
+    top: 5%; 
+    right: 2%;
+    margin: 20px;
+    max-width: 300px;
+    padding: 30px;
+    background-color: #fff;
+}  
+  /* Set a style for the submit button */
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+  
+.btn:hover {
+    opacity: 1;
+}
